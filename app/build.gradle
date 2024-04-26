@@ -14,9 +14,9 @@ android {
     }
     signingConfigs {
         omarea_Signing {
-            keyAlias 'genom'
+            keyAlias 'omarea.com'
             keyPassword 'asdf1234'
-            storeFile file('genom.keystore')
+            storeFile file('./omoarea-test.jks')
             storePassword 'asdf1234'
         }
     }
